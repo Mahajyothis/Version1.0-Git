@@ -1,0 +1,34 @@
+body{background:url(../../img/events/event_detail_backgroud.jpg) repeat;background-size: 100%;
+ }
+ .modal-header, h4, .close {
+ font-family:callibary;
+ color:white !important;
+ text-align: center;
+ font-size: 30px;
+ }
+ .modal-footer {
+ background-color: #f9f9f9;
+ }
+ .modal-header{padding:16px 50px;}
+ .close{color: #fff;}
+ div#edit_container{background:rgba(10, 56, 88, 0.9)}
+ img#banner-image{width: 100%;
+ margin-bottom: 15px;}
+ button.edit_btns{width: 49%;}
+ button#edit_update{float:left;margin-right: 1%}
+ button#edit_cancel{float:right;margin-left: 1%}
+
+ p#fileinfo,p#fileErrorinfo{font-size: 12px;
+ color: #cc0;
+ margin-left: 3%;}
+ p#fileErrorinfo,p#Validation_Error{
+ color: #f00 ;}
+
+ input.datepicker,input.timepicker{border-radius: 4px;
+ padding: 5px 10px;
+ width: 36%;}
+ input.timepicker{}
+ label#chooseFile{padding: 5px 10px;
+ background-color: #213;
+ border-radius: 5px;
+ font-size: 12px;cursor: pointer;}

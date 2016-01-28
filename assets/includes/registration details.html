@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Registration Details</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="modjs.js"></script>
+<script type="text/javascript">
+	function myFunction() {
+    document.getElementById("submit").style.color = "red";
+}
+</script>
+<link href="regstyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <div class="login-box">
+    <div class="lb-header">
+      <a href="#" class="active" id="login-box-link">Registration Details </a>
+      <a href="#" id="login-box-link">Personal Info</a>
+      <a href="#" id="signup-box-link">Professional Info</a>
+      <a href="#" id="signup-box-link">Finish</a>
+    </div>
+    <div class="social-login">
+      <a href="#">
+        <i class="fa fa-facebook fa-lg"></i>
+        Login in with facebook
+      </a>
+      <a href="#">
+        <i class="fa fa-google-plus fa-lg"></i>
+        log in with Google
+      </a>
+    </div>
+    <form class="email-signup">
+     <div class="u-form-group">
+        <input type="text" placeholder="Choose Username*" required="required"/>
+      </div>
+      <div class="u-form-group">
+        <input type="email" placeholder="Email*" required="required"/>
+      </div>
+       <div class="u-form-group">
+        <input type="email" placeholder="Conform Email*" required="required"/>
+      </div>
+      <div class="u-form-group">
+        <input type="password" placeholder="Password*" name="password" required="required"/>
+      </div>
+      <div class="u-form-group">
+        <input type="password" placeholder="Confirm Password*" name="cpassword" required="required"/>
+      </div>
+       <p><input id="acceptTerms" name="acceptTerms" type="checkbox" />
+            <label for="acceptTerms"  required="required" />
+                I agree to the <a href="">Terms and Conditions</a> and <a href="">Privacy Policy</a>
+            </label>
+         </p>
+      <input class="buttom" name="submit" id="submit" tabindex="5" value="NEXT" type="submit" formaction="personal details.html" onclick="myFunction()">
+    </form>
+  </div>
+</body>
+</html>

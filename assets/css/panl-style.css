@@ -1,0 +1,126 @@
+.rght-whole-panel{  height:100vh;  width:25%; position:absolute; top:0; right:0; transition:all 1s ease-out}
+.buttn-right{ background:#151515; width:90%; height:100vh; float:right }
+.icn-bck i{     padding-top: -2px;
+position: absolute;
+    padding-left: 8%; padding-right:8% }
+.icn-bck{ 
+background: #fff;
+    border-radius: 50%;
+    height:48px;
+    width: 48px ; font-size: 4.4em;
+    position: absolute;
+    top: 17%;
+    left: 0;
+    
+    margin: 4%;}
+	.icn-bck i:hover{ cursor:pointer; 
+    transition:all 1s ease-out; transform:rotate(720deg);color:#F26D2D!important;	}
+.right-menu{  position:relative; top:20%;font-size:1.3em}
+.right-menu ul li{ font-size:100%;padding:5%; margin-bottom:15px;}
+
+
+
+.right-menu ul li:hover > .bk-btn i{ color:#a82400; transition:all 0.5s ease-out; transform:rotate(360deg); font-weight:bolder; }
+.right-menu ul li:hover > .bk-btn-txt{ color:#a82400;}
+.right-menu ul li:hover > .twt-btn i{ color:#00aced; transition:all 0.5s ease-out; transform:rotate(360deg);  font-weight:bolder;}
+.right-menu ul li:hover > .twt-btn-txt{ color:#00aced;}
+.right-menu ul li:hover{ background: rgba(85, 85, 85,0.1) none repeat scroll 0% 0%; transition:all 0.5s ease-out} 
+.right-menu ul li:hover > .fb-btn i { color:#3b5998; transition:all 0.5s ease-out; transform:rotate(360deg); font-weight:bolder;}
+.right-menu ul li:hover > .fb-btn-txt{ color:#3b5998;}
+
+
+
+ul{ list-style-type:none;  padding: 0;}
+ul a{ color:#fff}
+ul a:hover, ul a:focus { text-decoration:none; }
+.txt-pos{ position:relative; left:26%}
+.icn-pos{ position:relative; left:14%; font-size: 120%;}
+.paddng-head{margin: 10%;
+    position: relative;
+	color:#D8D8D8;}
+
+/*small panel*/
+
+.rght-whole-panel1{  height:100vh;  width:5.8%; position:absolute; top:0; right:0; transition:all 1s ease-out}
+.buttn-right1{ background:#151515; width:76%; height:100vh; float:right }
+.icn-bck1 i{  position: absolute;
+   padding-left: 8%; padding-right:8%;margin-top: 1px;
+margin-bottom: 1px;}
+.icn-bck1{ 
+background: #fff;
+    border-radius: 50%;
+    height: 47px;
+width: 47px;font-size: 4.2em;
+    position: absolute;
+    top: 17%;	
+    left: 0;
+    margin: -2%;}
+	.icn-bck1 i:hover{ cursor:pointer; 
+    transition:all 1s ease-out; transform:rotate(720deg);color:#F26D2D!important; padding-left: 8%; padding-right:8%;margin-top: 1px;
+margin-bottom: 1px;}
+.right-menu1{  position:relative; top:30%;font-size:1.3em}
+.right-menu1 ul li{ font-size:100%;padding: 25%;	
+margin-bottom: 15px;
+text-align: center;}
+
+
+
+.right-menu1 ul li:hover > .bk-btn1 i{ color:#a82400; transition:all 0.5s ease-out; transform:rotate(360deg); font-weight:bolder;   }
+
+.right-menu1 ul li:hover > .twt-btn1 i{ color:#00aced; transition:all 0.5s ease-out; transform:rotate(360deg);  font-weight:bolder;}
+
+.right-menu1 ul li:hover{ background: rgba(85, 85, 85,0.1) none repeat scroll 0% 0%; transition:all 0.5s ease-out} 
+.right-menu1 ul li:hover > .fb-btn1 i { color:#3b5998; transition:all 0.5s ease-out; transform:rotate(360deg); font-weight:bolder;}
+
+
+
+
+
+
+.icn-pos1{ position:relative; left:14%; font-size: 241%;  }
+
+@media (max-width:767px) {
+	
+	.rght-whole-panel{width:100%; padding-top:5px;}
+	.buttn-right{width:100%}
+	.icn-bck{
+			 margin: 0;
+			left:45%;
+			transform:rotate(90deg);
+			 top: 0;
+		}
+		.rght-whole-panel1{width:100%; padding-top:5px;}
+	.buttn-right1{width:100%}
+	.icn-bck1{
+			 margin: 0;
+			left:45%;
+			transform:rotate(90deg);
+			 top: 0;
+		}
+		.rght-whole-panel{ height:100% !important}
+		.buttn-right{ height:100% !important}
+		.rght-whole-panel1{ height:100% !important}
+		.buttn-right1{ height:100% !important}
+		
+		
+		.right-menu{ top:10%}
+		.right-menu ul li{ padding: 2%; text-align:center}
+		.txt-pos{ left:6%}
+		.icn-pos{left:0}
+		.right-menu ul li {
+  
+    position: relative;
+    left: -6%;
+}
+.right-menu1 ul li {
+   
+    padding: 2%;
+    position: relative;
+    left: -16%;
+}
+.right-menu1 {
+
+    top: 10%;
+ 
+}
+	}

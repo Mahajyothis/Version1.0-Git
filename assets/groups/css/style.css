@@ -1,0 +1,86 @@
+body{
+/* background:url(../image/Antique-Gradient-Halftone-Background-Texture.jpg) !important; */
+background-color:#fff;
+width:99%;
+height:auto !important;
+}
+.container1{width:auto !important;}
+.header{
+height:60px;
+}
+
+
+.lower-section{
+margin-top:50px;
+}
+
+.join{
+margin-left:45%;
+color:red;
+font-family:callibary;
+font-size:20px;
+}
+.maybe{
+color:red;
+font-family:callibary;
+font-size:20px;
+
+}
+.bottom-section{
+/* margin-top:100px; 
+background:url(../image/a.jpg) */
+background-color:#F1F1F1 !important;
+}
+
+.img{
+margin: 0px 0px 5px 0px;
+width:100%;
+}
+.event-name{
+color:white;
+font-family:callibary;
+margin-left:25px;
+margin-top:-200px;
+}
+.date{
+color:white;
+font-family:callibary;
+margin-left:25px;
+margin-top:-30px;
+}
+.description{
+color:white;
+font-family:callibary;
+margin-top:10px;
+margin-left:25px;
+margin-top:-30px;
+}
+
+
+
+
+
+
+.close-section{
+height:16px;
+
+margin-top:15px;
+}
+.header-sections{float:right;margin-top:10px;}
+
+	#add{margin-right:30px;}
+  .modal-header, h4, .close {
+     font-family:callibary;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+  .modal-dialog{background:url(../image/2-orange-gradient.jpg);}
+  .footer{height:50px;}
+  .pagination{
+  float:right;
+  }
+  .btn btn-warning{height:10px;}

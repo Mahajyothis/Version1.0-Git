@@ -1,0 +1,57 @@
+
+.header_a{
+background-color:#106ebe;
+    height: 50px;
+        margin: 0 auto;
+}
+.pop-up-txt{ transition:all 0.1s ease-out; padding: 0 15px 15px 15px; color:#fff  }
+ul, ol{ list-style-type:none; padding:0}
+.first-menu li:nth-child(even) {background: #6d6d6d}
+.first-menu li:nth-child(odd) {background: #494949}
+.second-menu li:nth-child(even) {background: #4d75b3}
+.second-menu li:nth-child(odd) {background: #678bbf}
+.rmv-pddng-cls{ padding-right:0; padding-left:0;}
+ul li{ margin:0; padding:0}
+.cntnt{ padding:2%;}
+.cntnt p{ text-align:justify}
+.cmmnt-radius{ border-radius:16px;  
+  background-color: #555555;
+    border: none;
+	height: 133px;
+	}
+textarea:focus{ outline:none}
+ul li:hover{ cursor:pointer}
+.mnu-pddng{padding-left: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;}
+	.mnu-pddng i { padding:-11px}
+.mnu-pddng p{    padding: 4px;
+    text-align: left;}
+	
+	.mnu-pddng1{padding:16px}
+	.icn-syl i{padding: 3%;
+font-size: 160%;}
+.icn-syl i:hover{cursor:pointer}
+ .mnu-bar{display:block}
+ #right-section{display:none}
+
+.back-mble{ position:relative; top:25%; display:none}
+.back-mble:hover{ cursor:pointer}
+.left-btn-block1{float:left;width:4%;}
+@media (max-width:767px){
+.left-btn-block{ width:40%; float:left;}
+ul{ clear:both}
+.left-btn-block1 {
+    float: left;
+    width: 7%;
+}
+.normal-width1{ width:19%; float:left}
+.normal-width2{ width:62%; float:left}
+.normal-width-10{ float:left; width:81%}
+#right-inner{ position:absolute; width:100% !important}
+.cmmnt-radius{ width:100%}
+
+.back-mble{ display:block}
+}
+
+

@@ -1,0 +1,45 @@
+<link rel="stylesheet" type="text/css" href="../css/jquery.autocomplete.css" />
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.autocomplete.js"></script>
+
+
+<input type="text" id="mahajyothis_search" onkeyup="search_key()">
+
+<script>
+
+
+     $(document).ready(function () {
+
+  $("#mahajyothis_search").autocomplete("../auto.php", {
+
+        selectFirst: true
+  });
+ });
+
+</script>
+
+<script>
+ function numerology() {
+      
+	 var keyword=$("#mahajyothis_search").val();    
+alert(keyword);	 
+      if(keyword!=''){
+        $.ajax({
+          url: "<?php base_url();?>search?keyword="+keyword
+        }).done(function( data ) {
+         
+		   $("#search_error").html("");
+		  return true;
+        });   
+      } 
+	  
+	if(keyword=='')
+	  {
+	   $("#search_error").html("Please Enter Search Value");
+	   return false;
+	  }
+    }
+  
+  </script>
+
+

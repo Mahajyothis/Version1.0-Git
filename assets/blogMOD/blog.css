@@ -1,0 +1,36 @@
+.header-blogg{
+background-color:#50B253;
+    height: 50px;
+	
+}
+.no-padng-clas{ padding-right:0 !important;
+	padding-left:0 !important;}
+
+#controls{
+background-color:#50B253;
+border:none;
+   
+}
+.lft-pdng{padding-right:3%; padding-left:3%}
+#gly {
+    color: white;
+    border-color: #ccc;
+}
+#left{
+margin-top:2%;
+padding-bottom:2%;
+border-bottom:1px solid #B4B4B4;
+}
+#para{
+text-align:justify;
+}
+.right_blg{
+margin-top:2%;
+padding:2%;
+}
+#side_blg{
+background-color:#EAEAEA;
+}
+#para1{
+text-align:justify;
+}

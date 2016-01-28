@@ -1,0 +1,234 @@
+.searchbox{
+    position:relative;
+    min-width: 39px;
+    width:0%;
+    height:46px;
+    float:right;
+    overflow:hidden;
+          right: 210px;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+}
+.nav-mahajyothis
+{
+border-bottom:0px !important;
+    position: absolute;
+            right: 49px;
+    top: 0;
+}
+.btn-warning.view
+{
+    padding: 16% !important;
+    font-size: 9px !important;
+}
+.dropdown-mahajyothis
+{
+border-bottom:0px !important;
+}
+.nav-tabs > li > a:hover
+{
+background: transparent !important;
+
+
+border-right:1px solid rgb(242,166,18) !important;
+border-left:1px solid rgb(242,166,18) !important;
+}
+.nav-tabs > li > a
+{
+       background: transparent !important;
+    border-radius: 0px !important;
+    padding-top: 15px !important;
+    padding-bottom: 14px !important;
+    border-right: 1px solid rgb(242,166,18) !important;
+    border-left: 1px solid rgb(242,166,18) !important;
+    /* padding-left: 14px !important; */
+    border: none;
+    /* padding-right: 15px !important; */
+    width: 128px;
+    height: 17px;
+    overflow: hidden;
+text-align:center
+
+}
+
+.nav .open > a:focus
+{
+background: rgba(105, 101, 101, 100) !important;
+color:#fff;
+border-right:1px solid #000 !important;
+border-left:1px solid #000 !important;
+
+}
+
+
+.searchbox-input{
+    top:0;
+    right:0;
+    border:0;
+    outline:0;
+    background: rgba(218, 218, 218, 0.55) none repeat scroll 0% 0%;
+    width: 352px;
+    height: 47px;
+    margin:0;
+    padding:0px 55px 0px 20px;
+    font-size:20px;
+    color: #fff;
+}
+.searchbox-input::-webkit-input-placeholder {
+    color: #fff;
+}
+.searchbox-input:-moz-placeholder {
+    color: #fff;
+}
+.searchbox-input::-moz-placeholder {
+    color: #fff;
+}
+.searchbox-input:-ms-input-placeholder {
+    color: #fff;
+}
+
+.searchbox-icon,
+.searchbox-submit{
+      width: 39px;
+    height: 39px;
+    display: block;
+    position: absolute;
+    top: 0;
+    font-family: verdana;
+    font-size: 22px;
+    right: 0;
+    padding: 5px 0px 5px 0px;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+    color: #dcddd8;
+    background: rgb(111, 108, 108);
+}
+.listing-styles
+{
+    display:none;
+   clear: both;
+background: transparent none repeat scroll 0% 0%;
+z-index: 999;
+width: 353px;
+overflow-y: auto;
+height: 70vh;
+overflow-x: hidden;
+right: 209px;
+position: absolute;
+top: 41px;
+}
+.show-more-search
+{
+    background-color: #5A5A5A;
+    padding: 14px !important;
+    margin-left: 0 !important;
+    text-align: center;
+}
+ul.listing-styles li{
+    list-style-type:none;
+    border-bottom:2px solid #C4C5C7;
+    background:#EBEBEB;
+}
+ul.listing-styles li:hover{
+background: rgb(198, 198, 198) none repeat scroll 0% 0%;
+}
+.padding-cls-search
+{
+overflow-y: auto;
+overflow-x: hidden;
+padding: 0px;
+padding-right: 5px;
+padding-left: 5px;
+}
+.padding-cls-search img
+{
+    min-height: 52px;
+    margin-top: 5px;
+}
+.searchbox-open{
+    width:auto;
+}
+.user-profile-name
+{
+    color:#FA6A21;
+    font-size: 14px;
+}
+#opensidebar i {
+    height: 38px !important;
+    padding: 4px !important;
+}
+
+.search-bar-home
+{
+        position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 999;
+    background: rgba(113, 111, 111, 0.7);
+          padding-top: 0px;
+    border-left: 1px solid rgb(242,166,18);
+       width: 250px;
+}
+.user-profile-description
+{
+    color:#000;
+    clear:both
+}
+.no-paddings-search
+{
+    padding:0 !important
+}
+.padding-cls-search p
+{
+    color:#000;
+        margin: 0 auto;
+}
+.follow-btn-search
+{
+        line-height:7
+}
+.article-search-list
+{
+    font-weight:bold;
+    font-size:13px
+}
+.align-desc-text
+{
+    padding-top: 0px ! important;
+}
+@media (max-width:991px)
+{
+    ul.listing-styles li
+    {
+        text-align:center
+    }
+}
+@media (max-width:523px)
+{
+    .searchbox-input
+    {
+        width:227px
+    }
+    .listing-styles
+    {
+        width:303px
+    }
+}
+@media (max-width:362px)
+{
+    .searchbox-input
+    {
+        width:163px
+    }
+    .listing-styles
+    {
+        width:239px
+    }
+}

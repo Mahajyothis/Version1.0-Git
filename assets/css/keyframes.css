@@ -1,0 +1,29 @@
+/* for webkit browsers */
+@-webkit-keyframes scale {
+	 from { -webkit-transform:scale(0.5); opacity:.1; left:400px; }
+	 to { -webkit-transform:scale(1); opacity:1; left:0; }}
+/* for webkit browsers */
+
+/* if mozilla firefox */
+@-moz-keyframes scale {
+	 from { -moz-transform:scale(0.5); opacity:.1; left:400px; }
+	 to { -moz-transform:scale(1); opacity:1; left:0; }}
+/* for mozilla firefox */
+
+/* if IE */
+@-ms-keyframes scale {
+	 from { -ms-transform:scale(0.5); opacity:.1; left:400px; }
+	 to { -ms-transform:scale(1); opacity:1; left:0; }}
+/* for IE */
+
+/* if opera */	 
+@-o-keyframes scale {
+	 from { -0-transform:scale(0.5); opacity:.1; left:400px; }
+	 to { -0-transform:scale(1); opacity:1; left:0; }}
+/* for opera */
+
+/* simple */
+@keyframes scale {
+	 from { transform:scale(0.5); opacity:.1; left:400px; }
+	 to { transform:scale(1); opacity:1; left:0; }}
+/* simple */

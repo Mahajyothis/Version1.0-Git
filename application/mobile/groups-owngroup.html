@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+      <title>Mahajyothis</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->     
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />         
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body class="group-page">
+   	<div class="main-div">
+    	  <div class="container-fluid">
+          	<div class="row header">
+                <div class="col-xs-9">
+                    <a href="index.html"><img src="images/logo.png" class="img-responsive" /></a>
+                </div>
+                <div class="col-xs-3">
+                	<div class="dropdown">
+                      <button class="btn btn-group dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                       	<img src="images/test.png" class="img-responsive img-center img-circle" />                        
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+                </div>
+            </div><!--header--> 
+            <div class="grp-pic-box">
+            	<div class="row profile-box"><div class=" col-xs-5 profile-pic no-r-pad">
+                	<img src="images/grp-pic.png" class="img-responsive img-center"/>
+                </div>  
+                <div class="col-xs-7 no-l-pad grp-d grp-d-own white">
+                	<h5>UI Developer</h5>
+                        <p><i class="fa fa-user"></i>&nbsp;Admin: Sathish</p> 
+                        <p><i class="fa fa-calendar"></i>&nbsp;Date: Nov 2015</p> 
+                        <p><i class="fa fa-users"></i>&nbsp;Members: 15 </p>                       
+                </div> </div> <!--grp-pic-box-->            
+            </div><!--profile-box-->  
+            <div class="row">
+            	<div class="col-xs-12 text-right white">
+                	<button class="btn btn-sm create-grp grp-own-btn" type="button" data-toggle="modal" data-target="#add-mem-modal">Add Group Members&nbsp;&nbsp;<img src="images/add-grp-mem.png" class="img-circle"></button>&nbsp;
+                    <button class="btn btn-sm create-grp grp-own-btn" type="button" data-toggle="modal" data-target="#grp-mem-modal">Group Members&nbsp;&nbsp;<img src="images/grp-mem.png" class="img-circle"></button>
+                </div>
+            </div>                 
+            <div class="row"> 
+            	<div class="col-md-12 grp-tab-con grp-own">
+                	  <!-- Nav tabs -->
+                      <ul class="nav nav-pills text-center" role="tablist">
+                        <li role="presentation" class="active"><a href="#gr1" aria-controls="gr1" role="tab" data-toggle="tab">Post</a></li>
+                        <li role="presentation"><a href="#gr2" aria-controls="gr2" role="tab" data-toggle="tab">Events</a></li>
+                        <li role="presentation"><a href="#gr3" aria-controls="gr3" role="tab" data-toggle="tab">Add Photo</a></li>                        
+                      </ul>                    
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane  fade in active" id="gr1">
+                        	<div class="outer-own">
+                            	<div class="col-xs-12 grp-own-form white">
+                                	<form>
+                                    	<div class="form-group">
+                                        	<label>Update Your Status</label>
+	                                        <textarea class="form-control" placeholder="What you want to say....."></textarea>                                        
+                                        </div>
+                                        <div class="form-group text-right">
+                                        	<input type="submit" value="Post" class="btn btn-no-rad blue-btn white btn">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        	 <ul  class="list-unstyled comment-list grp-list grp-own-list">                      			
+                            	<li class="news-item">
+                                <table cellpadding="">
+                                <tbody><tr>
+                                <td><img src="images/personality.png" class="img-circle" width="40"></td>
+                                <td class="comment">                                    
+                                    <h6>Sathish Kumar</h6>
+                                    <p>11 Nov 2015 03:10:12 pm</p>                                   
+                                </td>     
+                                <td class="eandd text-center">
+                                	<button class="edit" type="button" data-toggle="modal" data-target="#edit-grp-modal"><i class="fa fa-pencil-square-o fa-lg"></i></button><br>
+                                    <button class="del" type="button" data-toggle="modal" data-target="#del-grp"><i class="fa fa-trash fa-lg"></i></button>
+                                </td>
+                                </tr>
+                                </tbody></table>  
+                                </li>                                                              
+                             </ul>
+                            <div class="post-div">
+                            	<div class="col-xs-12 white text-justify">
+                                   <p> The Hindu tradition relates diamonds to the planet Venus. Diamond, king of all crystals represent faithfulness, love, purity, innocence, and relationships filled with love. It removes certain types of deviations</p>
+                                   <ul class="list-inline">
+                                     <li><button type="button" class="no-bg"><i class="fa fa-thumbs-up"></i>&nbsp;<span class="count like-count">(9)</span> Likes</button></li>
+                        			<li><button  type="button" class="no-bg"><i class="fa fa-commenting"></i>&nbsp;<span class="count comment-count">(9)</span> Circle</button></li>                
+                                   </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="gr2">
+                        	<div class="outer-own">
+                            	<div class="col-xs-12 grp-own-form white">
+                                	<form>
+                                    	<div class="form-group">
+                                        	<label>Event Title</label>
+	                                        <input type="text" class="form-control" placeholder="Event Title" />
+                                        </div>
+                                        <div class="form-group">
+                                        	<label>Location</label>
+	                                        <input type="text" class="form-control" placeholder="Location" />
+                                        </div>
+                                        <div class="form-group">
+                                        	<label>Event Date</label>
+	                                        <select class="form-control"><option disabled selected>Select Date</option></select>
+                                        </div>
+                                        <div class="form-group">
+                                        	<label>Message</label>
+	                                        <textarea class="form-control" placeholder="Message"></textarea>                                        
+                                        </div>
+                                        <div class="form-group text-right">
+                                        	<input type="submit" value="Post" class="btn btn-no-rad blue-btn white btn">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        	 <ul  class="list-unstyled comment-list grp-list grp-own-list">                      			
+                            	<li class="news-item">
+                                <table cellpadding="">
+                                <tbody><tr>
+                                <td><img src="images/personality.png" class="img-circle" width="40"></td>
+                                <td class="comment">                                    
+                                    <h6>Sathish Kumar</h6>
+                                    <p>11 Nov 2015 03:10:12 pm</p>                                   
+                                </td>     
+                                <td class="eandd text-center">
+                                	<button class="edit" type="button" data-toggle="modal" data-target="#edit-grp-modal"><i class="fa fa-pencil-square-o fa-lg"></i></button><br>
+                                    <button class="del" type="button" data-toggle="modal" data-target="#del-grp"><i class="fa fa-trash fa-lg"></i></button>
+                                </td>
+                                </tr>
+                                </tbody></table>  
+                                </li>                                                              
+                             </ul>
+                            <div class="post-div">
+                            	<div class="col-xs-12 white text-justify">
+                                   <p> The Hindu tradition relates diamonds to the planet Venus. Diamond, king of all crystals represent faithfulness, love, purity, innocence, and relationships filled with love. It removes certain types of deviations</p>
+                                   <ul class="list-inline">
+                                     <li><button type="button" class="no-bg"><i class="fa fa-thumbs-up"></i>&nbsp;<span class="count like-count">(9)</span> Likes</button></li>
+                        			<li><button  type="button" class="no-bg"><i class="fa fa-commenting"></i>&nbsp;<span class="count comment-count">(9)</span> Circle</button></li>                     
+                                   </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade two-box" id="gr3">
+                        	<div class="outer-own">
+                            	<div class="col-xs-12 grp-own-form white">
+                                	<form>
+                                    	<div class="form-group">
+                                        	<label>Message</label>
+	                                        <textarea class="form-control" placeholder="What you want to say....."></textarea>                                        
+                                        </div>
+                                        <div class="own-file-up">
+                                        	<ul class="list-inline">
+	                                            <li><button type="button" class="btn btn-xs"><i class="fa fa-camera"></i>&nbsp;Photo</button></li>
+                                                <li><button  type="button" class="btn btn-xs"><i class="fa fa-caret-square-o-right"></i>&nbsp;Video</button></li>
+                                                <li><button  type="button" class="btn btn-xs"><i class="fa fa-volume-up"></i>&nbsp;Audio</button></li>
+                                            </ul>
+                                        </div>
+                                        <div class="form-group text-right">
+                                        	<input type="submit" value="Post" class="btn btn-no-rad blue-btn white btn">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        	 <ul  class="list-unstyled comment-list grp-list grp-own-list">                      			
+                            	<li class="news-item">
+                                <table cellpadding="">
+                                <tbody><tr>
+                                <td><img src="images/personality.png" class="img-circle" width="40"></td>
+                                <td class="comment">                                    
+                                    <h6>Sathish Kumar</h6>
+                                    <p>11 Nov 2015 03:10:12 pfffm</p>                                   
+                                </td>     
+                                <td class="eandd text-center">
+                                	<button class="edit" type="button" data-toggle="modal" data-target="#edit-grp-modal"><i class="fa fa-pencil-square-o fa-lg"></i></button><br>
+                                    <button class="del" type="button" data-toggle="modal" data-target="#del-grp"><i class="fa fa-trash fa-lg"></i></button>
+                                </td>
+                                </tr>
+                                </tbody></table>  
+                                </li>                                                              
+                             </ul>
+                            <div class="post-div">
+                            	<div class="col-xs-12 white text-justify">
+                                   <p> The Hindu tradition relates diamonds to the planet Venus. Diamond, king of all crystals represent faithfulness, love, purity, innocence, and relationships filled with love. It removes certain types of deviations</p>
+                                   <ul class="list-inline">
+                                    <li><button type="button" class="no-bg"><i class="fa fa-thumbs-up"></i>&nbsp;<span class="count like-count">(9)</span> Likes</button></li>
+                        			<li><button  type="button" class="no-bg"><i class="fa fa-commenting"></i>&nbsp;<span class="count comment-count">(9)</span> Circle</button></li>                       
+                                   </ul>
+                                </div>
+                            </div>
+                        </div>                      
+                      </div>
+                </div>
+            </div>   
+          </div><!--container-fluid-->
+    </div><!--plugin-->
+    <footer>
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-5">
+                	<a href="#"><img src="images/foot-l.png" class="img-responsive img-center"></a>
+                </div>
+                <div class="col-xs-5  col-xs-offset-2">
+                	<a href="#"><img src="images/foot-r.png" class="img-responsive img-center"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+      <!-- Modal -->
+<div class="modal fade" id="del-grp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content del-model-bg">
+      <div class="modal-header del-head-bg">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title white" id="myModalLabel">Delete</h4>
+      </div>
+      <div class="modal-body white">
+      	<div class="row">
+        	<div class="col-xs-12 text-center">
+            	<img src="images/grp-alert.png" class="img-responsive img-center" />
+                <h3>Are you sure?</h3>
+                <h6>u want to Delete this group?</h6>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="row">
+        	<div class="col-xs-6 text-left">
+	            <button type="button" class="btn btn-no-rad btn-sm mo-btn mo-can-btn white" data-dismiss="modal">Cancel</button>        
+            </div>
+            <div class="col-xs-6 text-right">            
+        		<button type="button" class="btn btn-no-rad blue-btn white btn-sm mo-btn">Delete</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="edit-grp-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content c-group-model-bg">
+      <div class="modal-header c-group-head-bg">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title white" id="myModalLabel">Edit Group</h4>
+      </div>
+      <div class="modal-body white">
+      	<form>
+        <div class="row">
+        	<div class="col-xs-12">
+            	<label>Group Name</label>
+            	<div class="form-group">
+            		<input type="text" class="form-control">
+            	</div>                                                                      	
+                <label>Group Description</label>
+            	<div class="form-group">
+            		<textarea class="form-control"></textarea>
+            	</div>
+                <label>Group Image</label>
+            	<div class="form-group">
+            		<span class="file-input btn btn-sm btn-no-rad btn-cam-file btn-file text-center">
+                        <i class="fa fa-camera fa-2x"></i><br>Choose File<input type="file" multiple="">
+                    </span>
+            	</div>  
+                <label>Privacy</label>
+            	<div class="form-group">
+            		<select class="form-control"><option>Public</option></select>
+            	</div>              
+                <div class="row form-group rad">                	
+                	<div class="col-xs-5 no-r-pad">                    	
+                        <label>Who Can Join</label>
+                    </div>
+                    <div class="col-xs-7 no-l-pad text-left">
+                    	<input type="radio" name="who" checked> <span class="rd">Anyone</span>&nbsp;<input type="radio" name="who"> <span class="rd">Ask me</span>
+                    </div>
+                </div>
+                <div class="row form-group rad">                	
+                	<div class="col-xs-5 no-r-pad">                    	
+                        <label>Whant to make live</label>
+                    </div>
+                    <div class="col-xs-7 text-left no-l-pad">
+                    	<input type="radio" name="live" checked > <span class="rd">Publish</span>&nbsp;<input type="radio" name="live"> <span class="rd">Unpublish</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </form>
+      </div>
+      <div class="modal-footer">        
+        <button type="button" class="btn btn-no-rad c-group-head-bg white btn-sm mo-btn">Create</button>
+      </div>
+    </div>
+  </div>
+</div> 
+<!--edit-grp-->
+<div class="modal fade" id="add-mem-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content del-model-bg">
+      <div class="modal-header del-head-bg">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title white" id="myModalLabel">Add Members</h4>
+      </div>
+      <div class="modal-body white">      	
+        <div class="row">        	
+        	<div class="add-mem-grp col-xs-8 no-r-pad">
+                   <div class="input-group">
+                      <input type="text" class="form-control  btn-no-rad forum-box white" placeholder="Search for..." />
+                      <ul class="list-unstyled white net-drop add-mem-drop">
+                      	<li>
+                        	<table>
+                            	<tr>
+                                	<td><img src="images/personality.png" width="30" class="img-circle"></td>
+                                    <td>Susbin Kumar</td>
+                                    <td><button type="button" class="btn btn-no-rad btn-xs blue-btn">Add</button></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li>
+                        	<table>
+                            	<tr>
+                                	<td><img src="images/personality.png" width="30" class="img-circle"></td>
+                                    <td>Susbin Kumar</td>
+                                    <td><button type="button" class="btn btn-no-rad btn-xs blue-btn">Add</button></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li>
+                        	<table>
+                            	<tr>
+                                	<td><img src="images/personality.png" width="30" class="img-circle"></td>
+                                    <td>Susbin Kumar</td>
+                                    <td><button type="button" class="btn btn-no-rad btn-xs blue-btn">Add</button></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li>
+                        	<table>
+                            	<tr>
+                                	<td><img src="images/personality.png" width="30" class="img-circle"></td>
+                                    <td>Susbin Kumar</td>
+                                    <td><button type="button" class="btn btn-no-rad btn-xs blue-btn">Add</button></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li>
+                        	<table>
+                            	<tr>
+                                	<td><img src="images/personality.png" width="30" class="img-circle"></td>
+                                    <td>Susbin Kumar</td>
+                                    <td><button type="button" class="btn btn-no-rad btn-xs blue-btn">Add</button></td>
+                                </tr>
+                            </table>
+                        </li>
+                      </ul>
+                      <span class="input-group-btn">
+                      <button class="btn btn-default btn-no-rad search-frm" type="button"><i class="fa fa-search fa-sm"></i></button>
+                      </span>
+                   </div>
+                   <!-- /input-group -->
+            </div>
+            <div class="col-xs-4 no-l-pad text-right">            
+        		<button type="button" class="btn btn-no-rad blue-btn white btn-sm mo-btn">Ok</button>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="grp-mem-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content del-model-bg grp-mem-model-bg">
+      <div class="modal-header del-head-bg">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title white" id="myModalLabel">Add Members</h4>
+      </div>
+      <div class="modal-body white">      	
+        <div class="row">
+           <ul class="list-unstyled white grp-mem-drop">
+              <li>
+                 <table>
+                    <tr>
+                       <td><img src="images/personality.png" width="30" class="img-circle"></td>
+                       <td>Susbin Kumar</td>                       
+                    </tr>
+                 </table>
+              </li>
+              <li>
+                 <table>
+                    <tr>
+                       <td><img src="images/personality.png" width="30" class="img-circle"></td>
+                       <td>Susbin Kumar</td>                       
+                    </tr>
+                 </table>
+              </li>
+              <li>
+                 <table>
+                    <tr>
+                       <td><img src="images/personality.png" width="30" class="img-circle"></td>
+                       <td>Susbin Kumar</td>                       
+                    </tr>
+                 </table>
+              </li>
+              <li>
+                 <table>
+                    <tr>
+                       <td><img src="images/personality.png" width="30" class="img-circle"></td>
+                       <td>Susbin Kumar</td>                       
+                    </tr>
+                 </table>
+              </li>
+              <li>
+                 <table>
+                    <tr>
+                       <td><img src="images/personality.png" width="30" class="img-circle"></td>
+                       <td>Susbin Kumar</td>                       
+                    </tr>
+                 </table>
+              </li>
+              <li>
+                 <table>
+                    <tr>
+                       <td><img src="images/personality.png" width="30" class="img-circle"></td>
+                       <td>Susbin Kumar</td>                       
+                    </tr>
+                 </table>
+              </li>
+           </ul>
+        </div>
+      </div>
+      <div class="modal-footer grp-mem-model-bg-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
+      <script src="js/jquery.min.js"></script>   
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>   
+      
+   </body>
+</html>

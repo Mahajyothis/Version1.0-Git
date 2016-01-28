@@ -1,0 +1,112 @@
+.middle{
+text-align:center;
+color:white;
+}
+.para1{
+text-align:center;
+color:white;
+}
+.btn-clr-cls1
+{
+	position: absolute;
+	right: -92px;
+	top: 79%;
+}
+
+.img-gif-widt
+{
+	margin-top: -12%;
+	width: 318px;
+	margin-left: -86px;
+}
+	
+.btn-clr-cls1:hover
+{
+		color:#fff;
+		cursor:pointer
+}
+#name1, #name2
+{
+	margin-left: 20%;
+	width:60%;
+}
+.result-description{
+	color:white;
+	font-size:16px;
+	font-family:cursive;
+	text-align:justify;
+}
+.align-text-center
+{
+	text-align:center
+}
+.result-font
+{
+	font-size:100px
+}
+.para2{
+text-align:center;
+color:white;
+}
+.middle1{
+text-align:center;
+color:white;
+font-size:100px;
+ 
+}
+#sizing{
+font-size:100%;
+}
+body{
+background-image: url("http://version.mahajyothis.net/assets/img/bg.jpg");
+width:72%;
+overflow-x:hidden
+}
+.col-center-block {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fnt{
+       font-family: cursive;
+  /*  font-style: oblique;*/
+   }
+
+.col-center-block1{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:6%;
+	color:red;
+}
+.fnt1{
+    font-family: cursive;
+   }
+  .rslt-txt{  text-align: center; color: #fff;font-family: cursive;}
+  .cngrts-txt{ font-size: 40px; font-family: cursive;}
+  @media screen and (max-width: 450px){.cngrts-txt{ font-size:26px;  } }
+  @media (max-width:991px)
+{
+	.btn-clr-cls1
+	{
+		margin-top: 0px;
+		float:none;
+		left: 37%;top: 110%;
+	}
+}
+@media (max-width:767px)
+{
+	body
+	{
+		width:100%
+	}
+}
+@media (max-width:460px)
+{
+	.refresh-txt
+	{ 
+		display:none
+	}
+}

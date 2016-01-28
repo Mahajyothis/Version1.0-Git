@@ -1,0 +1,358 @@
+.bck-img-cls{
+	background:url(http:www.mahajyothis.net/assets/img/img%203.png)}
+.labl{
+	font-size: 273%;
+	color: #FFF;
+	font-family: cursive;
+	margin-left: -27%;}
+.middle{
+	text-align:center;
+	color:white;
+}
+.para1{
+text-align:center;
+color:white;
+}
+.friendship-meter-image
+{
+		position: absolute;
+		height: 100%;
+		width: 87%;
+		margin-left: 6%;
+		left: 0px;
+		top: 0px;
+}
+.your-name, .your-friend-name
+{
+	text-align:center;
+	margin-top: 11%;
+}
+
+.friendship-meter-box
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.friendship-meter-inner-box
+{
+		position: absolute; 
+        border-color: rgb(197, 248, 11); 
+        left: 33.9999999999999px; top: 34.5421231774274px; 
+        display: none;
+}
+.friendship-meter-box-two
+{
+	position: absolute;
+	left:0px;
+	top: 0px;
+}
+.error-warnings
+{
+	text-align:center;
+	padding:50px
+}
+.para2{
+text-align:center;
+color:white;
+}
+.btn-brdr{border: 8px solid #C94092;
+border-radius: 38px;
+outline: none;}
+	.btn-warnings {
+    color: gold;
+    background-color: #bb3783;ss
+    border-color: #bb3783;
+    font-family: cursive;
+    font-size: 22px;
+}
+#error{
+    color: white;
+    text-align:center;
+	margin-top:3%;
+    font-family: cursive;
+    font-size: 18px;
+}
+.ui-jqradialgauge{
+width:250px;
+height:250px;
+}
+#result{
+position: relative;
+    /* text-align: center; */
+    color: red;
+    font-size: 100%;margin-left:-32%;
+    font-family: cursive;padding-bottom:10px;
+}
+@media (max-width:360px){
+.ui-jqradialgauge{
+width:180px;
+height:180px;
+ position: initial !important;
+}
+.col-md-3{
+width: 212px;
+}
+.col-md-12{
+width: 256px;
+}
+#result{
+margin-left: 40%;
+}
+}
+.middle1{
+text-align:center;
+color:white;
+font-size:100px;
+ 
+}
+#sizing{
+font-size:100%;
+}
+.checkagain-btn
+{
+	position:absolute;
+	bottom:-85px;
+	left: 231px;
+}
+body{
+background-image:url("http://version.mahajyothis.net/assets/img/frnd-shp-bg.jpg");
+    width: 70%;
+    margin-left: 3%;
+}
+.col-center-block {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	    margin-top: 6%;
+}
+.fnt{
+       font-family: cursive;
+    font-style: oblique;
+   }
+
+.col-center-block1{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:6%;
+	color:red;
+}
+.fnt1{
+    font-family: cursive;
+   }
+    .main-dv-wdth {
+    width: 100%;
+}
+.mrgn-cntr-cls {
+   margin-left: 26%;
+}
+.form-control {          width: 195%;
+height: 60px;
+margin-left: -51%} 
+  .rslt-txt{  text-align: center; color: #fff;font-family: cursive;}
+  .cngrts-txt{ font-size: 40px; font-family: cursive;}
+  .btn-algn-cls{text-align:center}
+  .field-one, .field-two{ margin-top:11%}
+  @media screen and (max-width:450px){.cngrts-txt{ font-size:26px;  } }
+   @media (min-width: 1200px) and (max-width:1700px){
+	   .cngrts-txt{ font-size:26px;}
+   .mrgn-cntr-cls {
+ margin-left: 23%;
+}
+.form-control {     width: 212%;
+margin-left: -47%;} 
+	.col-center-block {
+    float: none;
+    
+    margin-top: 0;
+}
+.labl {
+    font-size: 19px !important;
+}
+   
+   
+   
+    }
+  @media (min-width: 992px) and (max-width:1199px){
+	   .cngrts-txt{ font-size:26px;}
+   .mrgn-cntr-cls {
+margin-left: 0%;
+   
+}
+.form-control {     width: 196%;
+margin-left: -56%;
+height: auto;} 
+	.col-center-block {
+    float: none;
+    
+    margin-top: 0;
+}
+.labl {
+   font-size: 13px !important;
+margin-left: -20% !important;
+}
+   .field-two {
+    margin-top: 0px !important;
+}
+.field-one,.field-two{ margin-top: 35% !important;}
+   
+   
+    }
+	@media (min-width: 768px) and (max-width:991px){
+	   .cngrts-txt{ font-size: 35px !important;
+margin-left: 0px;}
+  
+.form-control {      width: 100%;
+margin-left: 0%;
+height: auto;} 
+	.col-center-block {
+    float: none;
+    
+    margin-top: 0;
+}
+.labl {
+        font-size: 35px !important;
+    margin-left: 0px !important;
+}
+   .field-two {
+    margin-top: 0px !important;
+}
+.field-one,.field-two{ margin-top:0 !important;}
+   
+   .checkagain-btn
+{
+	left: 16%;
+	bottom: -93%;
+}
+    }
+     @media (min-width: 361px) and (max-width:700px){
+    
+    
+    .mrgn-cntr-cls {
+ margin-left:0%;
+   
+}
+    
+    }
+@media (min-width: 361px) and (max-width:768px){
+	  
+ .labl {
+        font-size:180% !important;
+    margin-left: 0px  !important;
+}
+.form-control {   width: 113%;
+margin-left: -7%;
+height: auto;} 
+	.col-center-block {
+    float: none;
+    
+    margin-top: 0;
+}
+
+
+   .field-two {
+    margin-top: 0px !important;
+}
+.field-one,.field-two{ margin-top:0 !important;}
+   .main-dv-wdth {
+    width: 100%;
+}
+   .field-two {
+  padding-bottom:10%;
+}
+ 
+.ui-jqradialgauge {
+    width: 200px !important;
+    height: 200px !important;
+}
+    }
+	@media (max-width:319px){
+	   .cngrts-txt{ font-size: 35px !important;
+margin-left: 0px;}
+ 
+.form-control {      width: 100%;
+margin-left: 0%;
+height: auto;} 
+	.col-center-block {
+    float: none;
+    
+    margin-top: 0;
+}
+
+.labl {
+        font-size: 150% !important;
+    margin-left: 0px;
+}
+   .field-two {
+    margin-top: 0px !important;
+}
+.field-two {
+  padding-bottom:10%;
+}
+.field-one,.field-two{ margin-top:0 !important;}
+   .main-dv-wdth {
+    width: 100%;
+}
+   
+    }
+	
+	@media (min-width: 768px) and (max-width:991px){
+	  
+   .mrgn-cntr-cls {
+ /*margin-left:15%;*/ position:relative;top:0; left:0
+   
+}
+	}
+	@media (max-width:360px){
+	
+	.form-control {
+    width: 104%;
+    height: auto;
+    margin-left: -18%;
+}
+.labl {
+    font-size: 150%;
+	}
+	}
+	@media (min-width: 360px) and (max-width:450px){
+	  
+   .mrgn-cntr-cls {
+ margin-left:-12%;
+   
+}
+	}
+	@media (max-width:359px){
+		
+		 .mrgn-cntr-cls {
+margin-left: -29%;
+   
+}
+		}
+	@media (max-width:320px){
+		
+		 .mrgn-cntr-cls {
+ margin-left:-40%;
+   
+}
+		}
+@media (max-width:319px){
+		
+		 .mrgn-cntr-cls {
+ margin-left:-26%;
+   
+}
+		}
+		@media (min-width:1501px){
+		
+		.labl {
+      font-size: 139% !important;
+margin-left: -25% !important;
+}
+.form-control{ width:132%; margin-left: -19%;}
+		
+		
+		
+		}

@@ -1,0 +1,344 @@
+.one{
+      height:70px;
+	  width:28%;
+	  float:left;
+	  background-color:#8b6250;
+	  margin-top:10px;
+	   font-family:callibary;
+	 
+	  }
+.two{
+      height:70px;
+	  width:28%;
+	  margin-left:8%;
+	  float:left;
+	  background-color:#8b6250;
+	  margin-top:10px;
+	  font-family:callibary;
+	
+	  
+}
+.three{
+      height:70px;
+	  width:28%;
+	  float:right;
+	 background-color:#8b6250;
+	 margin-top:10px;
+	  font-family:callibary;
+	
+}
+.four{
+       height:70px;
+	   width:28%;
+	   float:left;
+	   background-color:#8b6250;
+	   margin-top:5px;
+	   font-family:callibary;
+	
+}
+.five{
+       height:70px;
+	   width:28%;
+	   float:left;
+	   margin-left:8%;
+	   background-color:#c5a692;
+	   margin-top:5px;
+	   font-family:callibary;
+	
+}
+.six{
+       height:70px;
+	   width:28%;
+	   float:right;
+	   background-color:#8b6250;
+	   margin-top:5px;
+	   font-family:callibary;
+	
+}
+.seven{
+       height:70px;
+	   width:28%;
+	   float:left;
+	   background-color:#8b6250;
+	   font-family:callibary;
+	
+}
+.eight{
+       height:70px;
+	   width:28%;
+	   float:left;
+	   margin-left:8%;
+	   background-color:#8b6250;
+	   font-family:callibary;
+	
+}
+.nine{  
+       height:70px;
+	   width:28%;
+	   float:right;
+	   background-color:#8b6250;
+	   font-family:callibary;
+}
+.info{    
+        border:0px solid;
+		height:1000px;
+		width:100%;
+		}
+.contact{
+         border:0px solid;
+		 height:1000px;
+		 background-color:black;
+		 width:auto;
+		 margin-right:-30px;
+		 }
+.contact1{
+         border:1px solid;
+		 height:1000px;
+		 }
+.articles{
+         border:0px solid;
+		 width:100%;
+		 }
+.info1{
+        border:0px solid;
+		width:100%;
+		}
+.numerology{
+        width:100%;
+		font-size:28px;
+		}
+.number{
+       font-size:20px;
+	   font-family:callibary;
+        text-align: justify;
+	   }
+.number1{
+       font-size:16px;
+	   font-family:callibary;
+         text-align:justify;
+	   }
+.info2{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info3{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info4{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info5{
+      width:100%;
+	  margin-top:50px;
+	  }
+.advice{
+      border:0px solid;
+	  width:100%;
+	  }
+.info6{
+     width:100%;
+	 }
+.info7{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info8{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info9{
+       width:100%;
+	   margin-top:50px;
+	   }
+.info10{
+       width:100%;
+	   margin-top:50px;
+	   }
+
+.name
+          { 
+      width:100%;
+      margin-top:30px;
+	  font-size:28px;
+	  font-family:callibary;
+	  color:#FFFFFF;
+	  }
+.back
+               {
+		 width:100%;
+		 margin-top:80px;
+		 font-size:22px;
+		 font-family:callibary;
+		 color:#FFFFFF;
+		 }
+.fb
+           {
+		  width:100%;
+		  margin-top:80px;
+		  font-size:22px;
+		  font-family:callibary;
+		  color:#FFFFFF;
+		  }
+.twit{
+       width:100%;
+	   margin-top:80px;
+	   font-size:22px;
+	   font-family:callibary;
+	   color:#FFFFFF;
+	   }
+.basics p{
+font-size:20px;
+font-family:callibary;
+margin-top:20px;
+}	
+.lucky{
+border:1px solid;
+float:left;
+width:36%;
+
+}
+.significant{
+border:1px solid;
+float:left;
+width:36%;
+}
+.enemynumber{
+border:1px solid;
+float:right;
+width:36%;
+}  
+.luck{
+font-size:20px;
+margin-left:20px;
+font-family:callibary;
+width:100%;
+
+}
+.diamonds{
+font-size:20px;
+margin-left:20px;
+font-family:callibary;
+width:100%;
+color:#666;
+font-size:16px;
+}
+.years{
+font-size:20px;
+margin-left:20px;
+font-family:callibary;
+width:100%;
+}
+.various{
+font-size:20px;
+margin-left:20px;
+font-family:callibary;
+width:100%;
+color:#666;
+font-size:16px;
+}
+.enemy{
+font-size:20px;
+margin-left:20px;
+font-family:callibary;
+width:100%;
+}
+.thenumbers{
+font-size:20px;
+margin-left:20px;
+font-family:callibary;
+width:100%;
+} 
+.thenum{
+font-size:20px;
+margin-left:20px;
+font-family:callibary;
+width:100%;
+}
+
+.positivetraits{
+font-size:18px;
+font-family:callibary;
+margin-left:23px;
+text-align:justify;
+
+}
+.negativetraits{
+
+font-size:18px;
+font-family:callibary;
+margin-left:23px;
+text-align:justify;
+}
+.positive{
+font-size:20px;
+font-family:callibary;
+margin-left:20px;
+margin-top:10px;
+}
+.negative{
+font-size:20px;
+font-family:callibary;
+margin-left:20px;
+margin-top:10px;
+}
+.forecast{
+font-size:20px;
+font-family:callibary;
+margin-left:31px
+
+}
+.by{
+
+font-size:18px;
+font-family:callibary;
+margin-left:31px;
+}
+.month{
+font-size:20px;
+font-family:callibary;
+margin-left:31px;
+margin-top:10px;
+}
+.expectations{
+font-size:20px;
+font-family:callibary;
+margin-left:31px;
+margin-top:30px;
+}
+.allinfo{
+font-size:20px;
+font-family:callibary;
+margin-top:30px;
+}
+.numeric{
+font-size:90px;
+margin-top:10px;
+margin-bottom:10px;
+background-image:url(http://version.mahajyothis.net/assets/img/bk.jpg);
+color:#FFFFFF;
+}
+.act
+{
+	width:100%;
+	height:10px;
+	background-color:#666;
+	margin-top:30px;
+}
+.act1
+{
+	background-color:#fff;
+	box-shadow: 10px 10px 5px #888888;
+}
+.act2
+{
+	background-color:#CCC;
+	
+}
+.act3
+{
+	background-color:#fff;
+	margin-top:10px;
+	box-shadow: 10px 10px 5px #888888;
+}

@@ -1,0 +1,91 @@
+<div id="general">
+
+ <button type="button" class="close" id="close1" data-dismiss="modal" onClick="window.location.reload()" style="margin-top:-7%">&times;</button>
+
+<div class="head-page" style="  margin-top: -8%;">
+        <div class="page-nav">
+          <span class="img-txt1 " style="  opacity: 0.2;">Registration Details</span>
+          <span class="img-txt2 " >Personal Details</span>
+          <span class="img-txt2 " >Professional Details</span>
+          <span class="img-txt2 ">Finish Details</span>
+        </div></div>
+<form action="" method="POST" id="form_clear1" class="email-signup">
+
+  <div class="form-group">
+    <label class="col-md-3" for="username">Username*:</label>
+    <div class="col-md-9">
+      <input class="form-control" id="Uname" name="username"  type="text" placeholder="Choose mixture of alpha and numeric Charector*" onkeyup="uservalidation()" required/>
+          <span class="error_msg"></span>
+		  <div id="use" style="color:red;font-weight:red;"></div>
+<div id="availability1" style="text-align: center;font-weight:bold;"></div>
+    </div>
+  </div>
+   <br>
+<br><br>
+  <div class="form-group">
+    <label class="col-md-3" for="emial">Email*:</label>
+    <div class="col-md-9"> 
+
+      <input class="form-control" id="email" name="email"  type="email" placeholder="Email*" onkeyup="emailverification()" required="required"/>
+           <span class="error_msg"></span>
+<div id="availability2" style="text-align: center;font-weight:bold;"></div>
+<div id="emi" style="color:red;font-weight:red;"></div>
+    </div>
+  </div>
+     <br><br>
+<br>
+  <div class="form-group">
+    <label class="col-md-3" for="email">Confirm Email*:</label>
+    <div class="col-md-9"> 
+
+      <input class="form-control" id="retypeemail" name="c_email" type="email" onkeyup="remailverification()" placeholder="return Confirm Email*" required="required"/>
+          <span class="error_msg"></span>
+ <div id="remai" style="color:red;font-weight:red;"></div>
+    </div>
+  </div><br>
+   <br><br>
+
+  <div class="form-group">
+   <label class="col-md-3" for="password"> Password*:</label> 
+   <div class="col-md-9">
+    <input class="form-control" id="Pword" name="password" type="password" placeholder="enter your Password*" onkeyup="return passwordvalidation()" required="required"/>
+            <span class="error_msg"></span>
+			 <div id="pass" style="color:red;font-weight:red;"></div>
+
+  </div>
+</div>
+  <br><br>
+<br>
+<div class="form-group">
+   <label class="col-md-3" for="password"> Re-type Password*:</label> 
+   <div class="col-md-9">
+    <input class="form-control" id="confirmpassword" name="c_password" type="password" placeholder="Retype your Password*" onkeyup="return rpasswordvalidation()" required="required"/>
+        <span class="error_msg"></span>
+ <div id="rpass" style="color:red;font-weight:red;"></div>
+  </div>
+</div>
+
+
+ <br><br><br>
+ <span class="error_msg"></span>
+ <div id="emptymessage" style="color:red;text-align:center;"></div>
+ 
+  
+ <div id="emailmessage" style="color:navy;text-align:center;">    </div><br><br>
+   <input id="submit" tabindex="5" value="NEXT" type="button" onclick="return myFunction()" style="  margin-left: 90%;
+  margin-top: 0%;
+  background-color: #fa8b1f;
+  color: white;">
+</form> 
+</div>
+<script>
+$(document).ready(function() 
+{
+    $('#close1').on('click', function()
+    {
+        $("#form_clear1").trigger("reset");
+    });
+
+    
+});
+</script>

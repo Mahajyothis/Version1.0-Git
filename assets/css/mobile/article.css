@@ -1,0 +1,18 @@
+.TokensContainer{background: rgba(255, 255, 255,0) !important;}
+.Tokenize ul.Dropdown{background: rgba(1,29,0,.9) !important;}
+.Tokenize ul.Dropdown li.Hover{background: #677766 !important;}
+.TokensContainer li.Token{color: #fff !important;
+    background: #011D00 !important;}
+.btn-orange{background: #ff8315 !important;}
+.tokenize-sample.form-control {
+    padding: 0;
+    height: auto;
+}
+p#fileinfo, p#fileErrorinfo {
+    font-size: 12px;
+    color: #CC0;
+}
+p#fileinfo,p#fileErrorinfo{font-size: 12px;
+    color: #CC0;}
+p#fileErrorinfo,p#Validation_Error{
+    color: #f0ad4e ;}

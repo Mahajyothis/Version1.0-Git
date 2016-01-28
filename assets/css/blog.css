@@ -1,0 +1,35 @@
+.header_blog{
+background-color:#50B253;
+    height: 65px;
+        margin: 0 auto;
+}
+#controls_blog{
+background-color:#50B253;
+border:none;
+   
+}
+#gly_blog{
+    color: white;
+    border-color: #ccc;
+}
+#left_blog{
+margin-top:2%;
+padding-bottom:2%;
+border-bottom:1px solid #B4B4B4;
+}
+#para_blog{
+text-align:justify;
+}
+#right_blog{
+margin-top:2%;
+padding:2%;
+}
+#side_blog{
+background-color:#EAEAEA;
+}
+#para1_blog{
+text-align:justify;
+}
+#btn_blog{
+margin-bottom:8px;
+}

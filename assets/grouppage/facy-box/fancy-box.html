@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>fancy box</title>
+<script src="jquery-1.11.3.min.js" type="text/javascript"></script>
+
+<script src="fancy_box.js"></script>
+<link rel="stylesheet" href="fancy.css" type="text/css" media="screen" />
+</head>
+
+<body>
+<a href="#one" class="fancybox">link</a>
+<div id="one" style="display:none">
+<img src="300x300-061-e1340955308953.jpg">
+
+</div>
+<script>
+$(document).ready(function() {
+  $("a.fancybox").fancybox()
+});
+</script>
+</body>
+</html>

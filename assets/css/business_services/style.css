@@ -1,0 +1,101 @@
+/* 
+File name: style.css
+Project name: MphCar
+*/
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #666;
+    background-color: #fff;
+}
+
+.wappsection {
+	width: 400px;
+	margin: auto;
+}
+
+.wappheading {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.wappmesaanger {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	border-bottom:transparent;
+	padding: 10px;
+}
+
+textarea {
+    overflow: auto;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+	width: 100%;
+}
+
+.control-label {
+	font-weight: 400;
+}
+label.text-left{
+    text-align: left !important;
+}
+
+.longitude {
+	margin-left:-15px;
+	padding-left: 0px;
+}
+
+.wapplang {
+	padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -7px;
+}
+
+.wapplang .input-group-addon{
+    border: 1px solid #ccc;
+}
+
+.btn-send {
+	padding: 5px 45px;
+}
+
+.btn-cancel {
+	padding: 5px 40px;
+}
+
+.wapp-header {
+    border-bottom: 0px solid #e5e5e5;
+}
+
+.wapp-control {
+	border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+	color: #888888;
+	float:left;
+}
+
+.modal-body{overflow: hidden !important;padding: 0 !important}
+iframe{width: 104%;
+    height: 500px;
+    overflow: hidden;}
+label.text-left img{width: 20px;
+    float: right;}
+
+iframe#hangoutFrame,iframe#skypeFrame{margin-left: 35%;}
+div#myModalHangout,div#myModalSkpye{display: block;
+    max-height: 110px;
+    background: rgba(255, 255, 255, 0.2);}
+div#myModalSkpye{max-height: 230px !important;}
+#modal-body-text-message{height: 350px}
+div#myModal{z-index:99999}
+
+@media (min-width: 768px) {
+
+.wapp-dialog {
+    width: 470px;
+    /*margin: 30px auto;*/
+}
+
+}

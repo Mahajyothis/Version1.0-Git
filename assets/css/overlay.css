@@ -1,0 +1,137 @@
+
+.overlay {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+  cursor: pointer;
+
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay .modal1 {
+ cursor: auto;
+position: absolute;
+z-index: 999999999;
+top: 3%;
+bottom: 0px;
+right: 0px;
+left: 0;
+margin: auto;
+width: 82%;
+height: 88%;
+padding: 0%;
+background: rgba(0, 0, 0, 0.9) none repeat scroll 0% 0%;
+box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 100);
+}
+
+.overlay.shown {
+  opacity: 1;
+}
+.simp-cls{ right: 0;
+    width: 32px;
+   /*  border: 1px solid #ccc; */
+    text-align: center;
+    position: absolute;
+  /*   top: -25px;
+    right: -25px; */
+    height: 25px;
+    font-size: 19px;
+	z-index:9
+	}
+.simp-cls a{text-decoration:none; color:#e81123}
+.simp-cls:hover { background:#e81123; }
+.simp-cls:hover > a{color:#fff !important;}
+
+.overlay .modal2 {
+ cursor: auto;
+position: absolute;
+z-index: 999999999;
+top: 3%;
+bottom: 0px;
+right: 0px;
+left: 0;
+margin: auto;
+width: 25%;
+height: 45%;
+padding: 0%;
+background: rgba(0, 0, 0, 0.9) none repeat scroll 0% 0%;
+box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 100);
+}
+
+
+.overflw-cls-img{ height:80%; overflow:hidden}
+.nopad-cls-popup{ padding:0}
+
+.img-ovrly{
+position: absolute;
+bottom: 0px;
+text-align: center;
+background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
+width: 100%;
+padding:3%;
+}
+.img-overly-txt{
+color: #F26522;
+font-weight:bold;
+text-align:left;
+margin-bottom:0
+}
+.img-overly-txt1{
+color: white;
+font-size: 15px;
+}
+.btnn-pd-clss{
+padding-left: 33%;
+padding-top: 9%;
+}
+.half-wdth-clss{width:50%; float:left}
+.grp-cnt-clss{color: #F26522; font-weight: bold;}
+.btn-algn-clsss{padding-left: 13%;
+    padding-right: 13%;}
+
+
+
+
+
+
+@media (max-width:991px){
+.overlay .modal2{
+width:44%;
+height:59%;
+}
+
+}
+@media (max-width:600px){
+.overlay .modal2{
+width:58%;
+height:53%;
+}
+
+}
+@media (max-width:400px){
+.overlay .modal2{
+width: 86%;
+height: 53%;
+}
+
+}
+@media (max-width:991px){
+.overlay .modal2{
+ left:0;
+ height:50%
+}
+
+}

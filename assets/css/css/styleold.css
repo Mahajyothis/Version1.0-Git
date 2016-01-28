@@ -1,0 +1,508 @@
+.container{
+         border:0px solid;
+		 height:1000px;
+		 width:100%;
+		 }
+		 
+.calender{
+    
+             margin-left:-30px;
+             border:0px solid;
+             height:1000px;
+             width:auto;
+            background-image:url(http://www.mahajyothis.net/assets/img/bk3.png);
+}
+.no1{
+     border:0px solid;
+	 width:100%;
+	 
+	 }
+.num {
+     font-size:25px;
+	 font-family:callibary;
+	 color:#FFFFFF;
+	 
+	 margin-left:27px;
+	 }
+.week{
+     border:0px solid;
+	 width:88%;
+	 margin-top:40px;
+	 margin-left:24px;
+	 
+	 
+	 
+	 }
+.daily{color:#FFFFFF;}
+.week1{color:#FFFFFF;}
+.monthly{color:#FFFFFF;}
+.yr1{color:#FFFFFF;}
+
+
+
+.weekly{
+     color:#FFFFFF;
+	 margin-left:15px;
+	 margin-top:40px;
+	font-size:19px;
+	 font-family:callibary;
+	 }
+	 .dai{ 
+	 color:#FFFFFF;
+	 font-size:19px;
+	 margin-left:18px;
+	 }
+	 .wee{ 
+	 color:#FFFFFF;
+	 margin-left:27px;
+	 font-size:19px;
+	 }
+	 .mon{ 
+	 color:#FFFFFF;
+	 margin-left:20px;
+	 font-size:19px;
+	 }
+	 .yr1{
+	 color:#FFFFFF;
+	 margin-left:10px;
+	 font-size:19px;
+	 }
+.sun-sign{
+      width:100%;
+	  }
+.sun-sign1
+            {
+       height:80px;
+		border:0px solid;
+		width:100%;
+		padding-left:12px;
+		}
+  .sign1
+            {
+        height:60px;
+		border:0px solid;
+		width:15%;
+		float:left;
+		padding-left:12px;
+		}
+		.sign1 img
+            {
+        height:60px;
+		width:100%;
+		float:left;
+		}
+.sign2
+            {
+        height:60px;
+	    
+		width:15%;
+		float:left;
+		padding-left:12px;
+		}
+		.sign2 img
+            {
+        height:60px;
+		
+		width:100%;
+		float:left;
+		}
+.sign3
+            {
+        height:60px;
+		width:15%;
+		float:left;
+	padding-left:12px;
+		}
+		.sign3 img
+            {
+        height:60px;
+	
+		width:100%;
+		float:left;
+		}
+.sign4
+            {
+        height:60px;
+		
+		width:15%;
+		float:left;
+			padding-left:12px;
+		}	
+.sign4 img
+            {
+        height:60px;
+		width:100%;
+		float:left;
+		
+		}			
+
+ .sign5
+            {
+        height:60px;
+		
+		width:15%;
+		float:left;
+        padding-left:12px;
+		}
+		.sign5 img
+            {
+        height:60px;
+
+		width:100%;
+		float:left;
+		}
+.sign6
+            {
+        height:60px;
+	
+		width:15%;
+		float:right;
+		margin-right:17px;
+		padding-right:12px;
+			
+		}
+		.sign6 img
+            {
+        height:60px;
+	
+		width:100%;
+		float:right;
+		margin-right:10%;
+	
+		}
+
+.sun-sign2{
+          height:80px;
+		  border:0px solid;
+		  width:100%;
+		  padding-left:12px;
+		  }
+  	 
+  .sign7
+            {
+        height:60px;
+		width:15%;
+		float:left;
+	    padding-left:12px;
+		}
+		.sign7 img
+            {
+        height:60px;
+		width:100%;
+		float:left;
+		}
+.sign8
+            {
+        height:60px;
+	
+		width:15%;
+		float:left;
+		padding-left:12px;
+		}
+		.sign8 img
+            {
+        height:60px;
+		
+		width:100%;
+		float:left;
+		}
+.sign9
+            {
+        height:60px;
+		width:15%;
+		float:left;
+			padding-left:12px;
+		}
+		.sign9 img
+            {
+        height:60px;
+	
+		width:100%;
+		float:left;
+		}
+.sign10
+            {
+        height:60px;
+		
+		width:15%;
+		float:left;
+		padding-left:12px;
+		}	
+.sign10 img
+            {
+        height:60px;
+		width:100%;
+		float:left;
+		
+		}			
+
+ .sign11
+            {
+        height:60px;
+		
+		width:15%;
+		float:left;
+        padding-left:12px;
+		}
+		.sign11 img
+            {
+        height:60px;
+
+		width:100%;
+		float:left;
+		margin-right:3%;
+		}
+.sign12
+            {
+        height:60px;
+	
+		width:15%;
+		float:right;
+		margin-right:17px;
+		padding-right:12px;
+			
+		}
+		.sign12 img
+            {
+        height:60px;
+		width:100%;
+		float:right;
+		margin-right:10%;
+	
+		}
+
+
+.calculator{width:100%;margin-top:60px;margin-left:29px;}
+.your-no{
+     font-size:24px;
+     color:#FFFFFF;
+     font-family:callibary;
+}
+#cal{
+    font-size:22px;
+    color:#FFFFFF;
+    font-family:callibary;
+}
+#calw{
+    font-size:22px;
+    color:#FFFFFF;
+    font-family:callibary;
+}
+#calm{
+    font-size:22px; 
+    color:#FFFFFF;
+    font-family:callibary;
+}
+#caly{
+    font-size:22px;
+    color:#FFFFFF;
+    font-family:callibary;
+}
+.personal-info{
+       color:#FFFFFF;
+	   font-family:callibary;
+	   font-size:20px;
+
+	   }
+	   #Uname{
+	   
+	   height:45px;
+	   width:87%;
+	   }
+.dob{
+
+       color:#FFFFFF;
+        font-family:callibary;
+		font-size:20px;
+}
+.search{
+    width:80%;
+      }
+.sub{
+      color:#FFFFFF;
+      background-color:#cb8700;
+      width:23%;
+      margin-right:36px;
+      height:40px;
+	  margin-top:23px;
+	  float:right;
+	  font-size:18px;
+	  font-family:callibary;
+	
+	  }
+.one{
+      height:70px;
+	  width:28%;
+	  float:left;
+	  background-color:#8b6250;
+	  margin-top:10px;
+	 
+	  }
+.two{
+      height:70px;
+	  width:28%;
+	  margin-left:8%;
+	  float:left;background-color:#8b6250;
+	  margin-top:10px;
+	  
+}
+.three{
+      height:70px;
+	  width:28%;
+	  float:right;
+	 background-color:#8b6250;
+	 margin-top:10px;
+	  
+}
+.four{
+       height:70px;
+	   width:28%;
+	   float:left;
+	   background-color:#8b6250;
+	   margin-top:5px;
+}
+.five{
+       height:70px;
+	   width:28%;
+	   float:left;
+	   margin-left:8%;
+	   background-color:#c5a692;
+	   margin-top:5px;
+}
+.six{
+       height:70px;
+	   width:28%;
+	   float:right;background-color:#8b6250;
+	   margin-top:5px;
+}
+.seven{
+       height:70px;
+	   width:28%;
+	   float:left;background-color:#8b6250;
+}
+.eight{
+       height:70px;
+	   width:28%;
+	   float:left;
+	   margin-left:8%;
+	   background-color:#8b6250;
+}
+.nine{  
+       height:70px;
+	   width:28%;
+	   float:right;
+	   background-color:#8b6250;
+
+}
+.info{    
+        border:0px solid;
+		height:1000px;
+		width:100%;
+		}
+.contact{
+         border:0px solid;
+		 height:1000px;
+		 background-color:black;
+		 width:auto;
+		 margin-right:-30px;
+		 }
+.contact1{
+         border:1px solid;
+		 height:1000px;
+		 }
+.articles{
+         border:0px solid;
+		 width:100%;
+		 }
+.info1{
+        border:0px solid;
+		width:100%;
+		}
+.numerology{
+        width:100%;
+		font-size:28px;
+		}
+.number{
+       font-size:20px;
+	   font-family:callibary;
+	   }
+.numbers{
+        margin-top:10px;
+
+
+}
+.number1{
+       font-size:16px;
+	   font-family:callibary;
+	   }
+.info2{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info3{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info4{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info5{
+      width:100%;
+	  margin-top:50px;
+	  }
+.advice{
+      border:0px solid;
+	  width:100%;
+	  }
+.info6{
+     width:100%;
+	 }
+.info7{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info8{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info9{
+       width:100%;
+	   margin-top:50px;
+	   }
+.info10{
+       width:100%;
+	   margin-top:50px;
+	   }
+
+.name
+          { 
+      width:100%;
+      margin-top:30px;
+	  font-size:28px;
+	  font-family:callibary;
+	  color:#FFFFFF;
+	  }
+.back
+               {
+		 width:100%;
+		 margin-top:80px;
+		 font-size:22px;
+		 font-family:callibary;
+		 color:#FFFFFF;
+		 }
+.fb
+           {
+		  width:100%;
+		  margin-top:80px;
+		  font-size:22px;
+		  font-family:callibary;
+		  color:#FFFFFF;
+		  }
+.twit{
+       width:100%;
+	   margin-top:80px;
+	   font-size:22px;
+	   font-family:callibary;
+	   color:#FFFFFF;
+	   }

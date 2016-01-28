@@ -1,0 +1,455 @@
+.container{
+         border:0px solid;
+		 height:1000px;
+		 width:100%;
+		 }
+		 
+.calender{
+    
+             margin-left:-30px;
+             border:0px solid;
+             height:1000px;
+             width:auto;
+            background-image:url(http://www.mahajyothis.net/assets/img/bk1.png);
+}
+.no1{
+     border:0px solid;
+	 width:100%;
+	 
+	 }
+.num {
+     font-size:25px;
+	 font-family:callibary;
+	 color:#FFFFFF;
+	 
+	 margin-left:15px;
+	 }
+.week{
+     border:0px solid;
+	 width:100%;
+	 margin-top:40px;
+	 
+	 }
+.daily{color:#FFFFFF;}
+.week1{color:#FFFFFF;}
+.monthly{color:#FFFFFF;}
+.yr1{color:#FFFFFF;}
+
+
+
+.weekly{
+     color:#FFFFFF;
+	 margin-left:15px;
+	 margin-top:40px;
+	font-size:19px;
+	 font-family:callibary;
+	 }
+	 .dai{ color:#FFFFFF;font-size:19px;}
+	 .wee{ color:#FFFFFF;margin-left:20px;font-size:19px;}
+	 .mon{ color:#FFFFFF;margin-left:20px;font-size:19px;}
+	 .yr1{ color:#FFFFFF;margin-left:20px;font-size:19px;}
+.sun-sign{
+      width:100%;
+	  }
+.sun-sign1
+            {
+       height:80px;
+		border:0px solid;
+		width:100%;
+		padding-left:12px;
+		}
+  .sign1
+            {
+        height:60px;
+		border:0px solid;
+		width:15%;
+		float:left;
+		padding-left:12px;
+		}
+		.sign1 img
+            {
+        height:60px;
+		width:100%;
+		float:left;
+		}
+.sign2
+            {
+        height:60px;
+	    
+		width:15%;
+		float:left;
+		padding-left:12px;
+		}
+		.sign2 img
+            {
+        height:60px;
+		
+		width:100%;
+		float:left;
+		}
+.sign3
+            {
+        height:60px;
+		width:15%;
+		float:left;
+	padding-left:12px;
+		}
+		.sign3 img
+            {
+        height:60px;
+	
+		width:100%;
+		float:left;
+		}
+.sign4
+            {
+        height:60px;
+		
+		width:15%;
+		float:left;
+			padding-left:12px;
+		}	
+.sign4 img
+            {
+        height:60px;
+		width:100%;
+		float:left;
+		
+		}			
+
+ .sign5
+            {
+        height:60px;
+		
+		width:15%;
+		float:left;
+        	padding-left:12px;
+		}
+		.sign5 img
+            {
+        height:60px;
+
+		width:100%;
+		float:left;
+		}
+.sign6
+            {
+        height:60px;
+	
+		width:15%;
+		float:right;
+		margin-right:17px;
+			padding-right:16px;
+			
+		}
+		.sign6 img
+            {
+        height:60px;
+	
+		width:100%;
+		float:right;
+	
+		}
+
+.sun-sign2{
+          height:80px;
+		  border:0px solid;
+		  width:100%;
+		  padding-left:12px;
+		  }
+  	 
+  .sign7
+            {
+        height:60px;
+		width:15%;
+		float:left;
+	    padding-left:12px;
+		}
+		.sign7 img
+            {
+        height:60px;
+		width:100%;
+		float:left;
+		}
+.sign8
+            {
+        height:60px;
+	
+		width:15%;
+		float:left;
+			padding-left:12px;
+		}
+		.sign8 img
+            {
+        height:60px;
+		
+		width:100%;
+		float:left;
+		}
+.sign9
+            {
+        height:60px;
+		width:15%;
+		float:left;
+			padding-left:12px;
+		}
+		.sign9 img
+            {
+        height:60px;
+	
+		width:100%;
+		float:left;
+		}
+.sign10
+            {
+        height:60px;
+		
+		width:15%;
+		float:left;
+			padding-left:12px;
+		}	
+.sign10 img
+            {
+        height:60px;
+		width:100%;
+		float:left;
+		
+		}			
+
+ .sign11
+            {
+        height:60px;
+		
+		width:15%;
+		float:left;
+        	padding-left:12px;
+		}
+		.sign11 img
+            {
+        height:60px;
+
+		width:100%;
+		float:left;
+		}
+.sign12
+            {
+        height:60px;
+	
+		width:15%;
+		float:right;
+		margin-right:17px;
+			padding-right:16px;
+			
+		}
+		.sign12 img
+            {
+        height:60px;
+	
+		width:100%;
+		float:right;
+	
+		}
+
+
+.calculator{width:100%;margin-top:60px;margin-left:29px;}
+.your-no{
+     font-size:24px;
+     color:#FFFFFF;
+     font-family:callibary;
+}
+#cal{
+    font-size:22px;
+    color:#FFFFFF;
+    font-family:callibary;
+}
+#calw{
+    font-size:22px;
+    color:#FFFFFF;
+    font-family:callibary;
+}
+#calm{
+    font-size:22px; 
+    color:#FFFFFF;
+    font-family:callibary;
+}
+#caly{
+    font-size:22px;
+    color:#FFFFFF;
+    font-family:callibary;
+}
+.personal-info{
+       color:#FFFFFF;
+	   font-family:callibary;
+	   font-size:20px;
+	   }
+.dob{
+
+       color:#FFFFFF;
+        font-family:callibary;
+		font-size:20px;
+}
+.search{
+    width:80%;
+      }
+.sub{
+
+	  margin-top:40px;
+	  float:right;
+	  font-family:callibary;
+	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(208,228,247,1)), color-stop(24%,rgba(115,177,231,1)), color-stop(50%,rgba(10,119,213,1)), color-stop(79%,rgba(83,159,225,1)), color-stop(100%,rgba(135,188,234,1)));
+	  }
+.one{
+      height:70px;
+	  width:32%;
+	  float:left;
+	  background-color:#999; }
+.two{
+      height:70px;
+	  width:32%;
+	  margin-left:5px;
+	  float:left;
+	  background-color:#999;}
+.three{
+      height:70px;
+	  width:32%;
+	  float:right;
+	  background-color:#999;}
+.four{
+       height:70px;
+	   width:32%;
+	   float:left;
+	   background-color:#999;}
+.five{
+       height:70px;
+	   width:32%;
+	   float:left;
+	   margin-left:5px;
+	   background-color:#0CC;}
+.six{
+       height:70px;
+	   width:32%;
+	   float:right;
+	   background-color:#999;}
+.seven{
+       height:70px;
+	   width:32%;
+	   float:left;
+	   background-color:#999;}
+.eight{
+       height:70px;
+	   width:32%;
+	   float:left;
+	   margin-left:5px;
+	   background-color:#999;}
+.nine{  
+       height:70px;
+	   width:32%;
+	   float:right;
+	   background-color:#999;}
+.info{    
+        border:0px solid;
+		height:1000px;
+		width:100%;
+		}
+.contact{
+         border:0px solid;
+		 height:1000px;
+		 background-color:black;
+		 width:auto;
+		 margin-right:-30px;
+		 }
+.contact1{
+         border:1px solid;
+		 height:1000px;
+		 }
+.articles{
+         border:0px solid;
+		 width:100%;
+		 }
+.info1{
+        border:0px solid;
+		width:100%;
+		}
+.numerology{
+        width:100%;
+		font-size:28px;
+		}
+.number{
+       font-size:20px;
+	   font-family:callibary;
+	   }
+.number1{
+       font-size:16px;
+	   font-family:callibary;
+	   }
+.info2{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info3{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info4{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info5{
+      width:100%;
+	  margin-top:50px;
+	  }
+.advice{
+      border:0px solid;
+	  width:100%;
+	  }
+.info6{
+     width:100%;
+	 }
+.info7{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info8{
+      width:100%;
+	  margin-top:50px;
+	  }
+.info9{
+       width:100%;
+	   margin-top:50px;
+	   }
+.info10{
+       width:100%;
+	   margin-top:50px;
+	   }
+
+.name
+          { 
+      width:100%;
+      margin-top:30px;
+	  font-size:28px;
+	  font-family:callibary;
+	  color:#FFFFFF;
+	  }
+.back
+               {
+		 width:100%;
+		 margin-top:80px;
+		 font-size:22px;
+		 font-family:callibary;
+		 color:#FFFFFF;
+		 }
+.fb
+           {
+		  width:100%;
+		  margin-top:80px;
+		  font-size:22px;
+		  font-family:callibary;
+		  color:#FFFFFF;
+		  }
+.twit{
+       width:100%;
+	   margin-top:80px;
+	   font-size:22px;
+	   font-family:callibary;
+	   color:#FFFFFF;
+	   }

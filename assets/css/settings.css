@@ -1,0 +1,89 @@
+button{
+float:right;
+}
+body{
+width:100%;
+text-align:middle;
+color:white;
+}
+#background{
+    background-color:#272727;
+	width:70%;
+	
+}
+
+#sectioning{
+   width:90%;
+   padding:4%;
+   }
+
+#inner1,#inner2,#pro,#back{
+	border-bottom:1px solid #383838;
+	border-color:white;
+   }
+#sec1,#sec2,#sec3,#sec4{
+border-bottom:1px solid #383838;
+border-color:white;
+}
+#total_inner{
+
+border: 1px solid #383838;
+    border-color: white;
+    padding-bottom: 0%;
+    padding-top: 0%;
+	padding:0;
+}
+h3{
+font-size:200%;
+}
+#ed,#ed1,#edp,#edb,#ed4,#ed5,#ed6,#ed7,#ed8,#ed9{
+color:white;
+background-color:#14A79D;
+border:none;
+position:relative;
+margin-right:15%;
+}
+.form-control {
+    display: block;
+    width: 122%;
+    height: 28px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: white;
+    background-color:#272727;
+    background-image: url("../img/horscope111111.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+	    width: 70%;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url("../img/btn 3.png");
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
